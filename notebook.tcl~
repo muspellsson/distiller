@@ -1,0 +1,11 @@
+ttk::notebook .nb
+pack .nb
+
+ttk::frame .nb.calc
+ttk::frame .nb.appr
+
+set fcalc .nb.calc
+set fappr .nb.appr
+
+.nb add $fcalc -text "По параметрам колонны"
+.nb add $fappr -text "По данным измерений"
